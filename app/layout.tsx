@@ -1,9 +1,16 @@
 import type { Metadata } from "next";
+
 import { Jost } from "next/font/google";
+
 import "./globals.css";
 
 const jost = Jost({
   subsets: ["latin"],
+});
+
+Jost({
+  subsets: ["latin"],
+  weight: ["400", "500"],
 });
 
 export const metadata: Metadata = {
