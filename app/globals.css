@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --peach-dark: #e7816b;
+  --peach-light: #ffad9b;
+  --dark-black: #1d1c1e;
+  --dark-grey: #333136;
+  --light-grey: #f1f3f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
