@@ -25,3 +25,14 @@ html {
   letter-spacing: 0.2rem;
   color: var(--dark-grey);
 }
+
+.overlay {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  height: 100rem;
+  width: 100vw;
+}
