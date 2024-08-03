@@ -19,15 +19,43 @@ html {
   font-size: 62.5%;
 }
 
+/* Typography */
+
 h1 {
   color: #fff;
   font-size: 3.2rem;
+  line-height: 3.7rem;
+  font-weight: 500;
 }
 
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
   h1 {
     font-size: 4.8rem;
+    line-height: 4.8rem;
   }
+}
+
+h2 {
+  font-size: 3.2rem;
+  color: #fff;
+  letter-spacing: 0.2rem;
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 4rem;
+  }
+}
+
+.body-text {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: var(--dark-grey);
+}
+
+.body-text-light {
+  color: #fff;
+  font-size: 1.5rem;
 }
 
 .list-item {
@@ -35,6 +63,28 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   color: var(--dark-grey);
+}
+
+/* Utils */
+
+.btn-primary {
+  border-radius: 8px;
+  text-transform: uppercase;
+  border: 0;
+  outline: 0;
+  padding: 1.8rem 2.5rem;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  color: var(--dark-grey);
+  transition: 0.15s ease-in;
+  background-color: #fff;
+  font-weight: 500;
+  position: relative;
+}
+
+.btn-primary:hover {
+  background-color: var(--peach-light);
+  color: #fff;
 }
 
 .overlay {
@@ -46,4 +96,22 @@ h1 {
   z-index: 1;
   height: 100rem;
   width: 100vw;
+}
+
+/* Home */
+
+.home-hero::before {
+  content: "";
+  background-image: url("../public/images/home/desktop/image-hero-phone.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  width: 100%;
+  height: 100%;
+  max-width: 37.5rem;
+  transform: translateX(-50%) translateY(35rem) scale(1.65);
 }
