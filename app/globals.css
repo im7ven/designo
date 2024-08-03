@@ -115,3 +115,32 @@ h2 {
   max-width: 37.5rem;
   transform: translateX(-50%) translateY(35rem) scale(1.65);
 }
+
+@media screen and (min-width: 1024px) {
+  .home-hero::before {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    right: 50%;
+    max-width: 37.5rem;
+    transform: translateX(9rem) translateY(10.5rem) scale(1.65);
+  }
+}
+
+.home-hero-design {
+  content: "";
+  background-image: url("../public/images/home/desktop/bg-pattern-hero-home.svg");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position-y: center;
+  background-position-x: left;
+}
+
+@media screen and (min-width: 786px) {
+  .home-hero-design {
+    background-position-x: right;
+  }
+}
