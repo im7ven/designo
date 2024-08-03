@@ -4,7 +4,7 @@ import HomeHero from "./components/home/HomeHero";
 
 export default function Home() {
   return (
-    <main className="max-w-[111rem] mx-auto md:px-10">
+    <main className="max-w-[111rem] mx-auto md:px-16">
       <HomeHero />
     </main>
   );

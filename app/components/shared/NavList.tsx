@@ -42,8 +42,8 @@ const NavList = () => {
         />
       )}
       <ul
-        className={`w-full text-[2.4rem] uppercase text-white absolute overflow-hidden bg-[--dark-black] max-h-0  p-0 transition-all z-10  left-0  top-full tracking-[.2rem] space-y-8  md:flex md:items-center md:w-auto md:bg-transparent md:tracking-[2px] md:text-[--dark-grey] md:text-sm md:top-0 md:px-0 md:right-10 md:left-[initial] md:space-y-0 gap-[4.2rem] md:max-h-[initial] md:py-[3rem]  ${
-          isExpanded ? "py-12 px-6 max-h-[37.5rem]  " : ""
+        className={`w-full text-[2.4rem] uppercase text-white absolute overflow-hidden bg-[--dark-black] max-h-0  p-0 transition-all z-10  left-0  top-full tracking-[.2rem] space-y-[3.2rem]  md:flex md:items-center md:w-auto md:bg-transparent md:tracking-[2px] md:text-[--dark-grey] md:text-sm md:top-0 md:px-0 md:right-[4rem] md:left-[initial] md:space-y-0 gap-[4.2rem] md:max-h-[initial] md:py-[7.1rem]  ${
+          isExpanded ? "py-[4.8rem] px-[2.4rem] max-h-[37.5rem]  " : ""
         }`}
       >
         <li>
