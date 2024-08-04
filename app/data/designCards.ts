@@ -26,7 +26,7 @@ export const webDesignLg = {
   tabletImg: webDesignTablet,
   mobileImg: webDesignMobile,
   link: "/web-design",
-  size: "64rem",
+  size: "lg:h-[64rem]",
   rowSpan: "row-span-2",
 };
 
