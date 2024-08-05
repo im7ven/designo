@@ -8,8 +8,6 @@ export interface FeatureCardProps {
   image: StaticImageData;
   description: string;
   alt: string;
-  width: number;
-  height: number;
   background: string;
 }
 
@@ -19,8 +17,6 @@ export const friendlyCard = {
   description:
     "We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we strive to give them the best experience a company can provide.",
   alt: "Friendly illustration",
-  width: 201,
-  height: 128,
   background: "bg-friendly-gradient",
 };
 
@@ -30,8 +26,6 @@ export const passionateCard = {
   description:
     "Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We merge art, design, and technology into exciting new solutions.",
   alt: "Passionate illustration",
-  width: 188,
-  height: 162,
   background: "bg-passionate-gradient",
 };
 
@@ -41,7 +35,5 @@ export const resourcefulCard = {
   description:
     "Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer collaboration. It guarantees superior results that fulfil our clients' needs.",
   alt: "Resourceful illustration",
-  width: 184,
-  height: 162,
   background: "bg-resourceful-gradient",
 };
