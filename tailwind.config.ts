@@ -12,6 +12,12 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "resourceful-gradient":
+          "linear-gradient(180deg, rgba(93,2,2,0) 0%, rgba(93,2,2,0.1) 100%)",
+        "friendly-gradient":
+          "linear-gradient(0deg, rgba(93,2,2,.001) 0%, rgba(93,2,2,0.1) 100%)",
+        "passionate-gradient":
+          "linear-gradient(-90deg, rgba(93,2,2,0) 0%, rgba(93,2,2,0.1) 100%)",
       },
     },
   },
