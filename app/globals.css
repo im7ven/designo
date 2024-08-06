@@ -78,7 +78,7 @@ h2 {
   text-transform: uppercase;
   border: 0;
   outline: 0;
-  padding: 1.8rem 2.5rem;
+  padding: 1.7rem 1.9rem;
   letter-spacing: 1px;
   font-size: 1.5rem;
   color: var(--dark-grey);
@@ -86,6 +86,7 @@ h2 {
   background-color: #fff;
   font-weight: 500;
   display: inline-block;
+  letter-spacing: 1px;
 }
 
 .btn-primary:hover {
