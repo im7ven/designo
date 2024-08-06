@@ -15,7 +15,7 @@ const FeatureCard = ({ ...props }: FeatureCardProps) => {
         <h3 className="text-[2rem] tracking-[.5rem] uppercase leading-[2.6rem] font-medium text-[--dark-grey] mb-[3.2rem]">
           {props.heading}
         </h3>
-        <p className="body-text">{props.description}</p>
+        <p className="body-text text-[--dark-grey]">{props.description}</p>
       </div>
     </article>
   );

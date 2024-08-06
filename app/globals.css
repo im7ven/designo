@@ -51,7 +51,6 @@ h2 {
 .body-text {
   font-size: 1.5rem;
   line-height: 2.5rem;
-  color: var(--dark-grey);
 }
 
 @media screen and (min-width: 768px) {
@@ -63,7 +62,6 @@ h2 {
 
 .body-text-light {
   color: #fff;
-  font-size: 1.5rem;
 }
 
 .list-item {
@@ -87,7 +85,7 @@ h2 {
   transition: 0.15s ease-in;
   background-color: #fff;
   font-weight: 500;
-  position: relative;
+  display: inline-block;
 }
 
 .btn-primary:hover {
@@ -150,5 +148,17 @@ h2 {
 @media screen and (min-width: 786px) {
   .home-hero-design {
     background-position-x: right;
+  }
+}
+
+.footer-cta {
+  background-image: url("../public/images/shared/desktop/bg-pattern-call-to-action.svg");
+  background-position: 40%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-cta {
+    background-position: right;
   }
 }
