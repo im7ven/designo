@@ -162,3 +162,8 @@ h2 {
     background-position: right;
   }
 }
+
+.social-icons:hover {
+  filter: brightness(0) saturate(100%) invert(65%) sepia(76%) saturate(210%)
+    hue-rotate(322deg) brightness(98%) contrast(109%);
+}
