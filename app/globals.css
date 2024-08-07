@@ -168,6 +168,29 @@ h2 {
   }
 }
 
+.background-design1 {
+  background-image: url("../public/images/shared/desktop/bg-pattern-leaf.svg");
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 43.5rem;
+  z-index: -1;
+  left: 0;
+  width: 100.6rem;
+  height: 59.4rem;
+}
+
+.background-design2 {
+  background-image: url("../public/images/shared/desktop/bg-pattern-leaf.svg");
+  position: absolute;
+  width: 100.6rem;
+  height: 59.4rem;
+  transform: rotate(180deg);
+  right: 0;
+  top: 184rem;
+  z-index: -1;
+}
+
 .social-icons:hover {
   filter: brightness(0) saturate(100%) invert(65%) sepia(76%) saturate(210%)
     hue-rotate(322deg) brightness(98%) contrast(109%);
