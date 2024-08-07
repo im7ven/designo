@@ -192,3 +192,21 @@ h2 {
   filter: brightness(0) saturate(100%) invert(65%) sepia(76%) saturate(210%)
     hue-rotate(322deg) brightness(98%) contrast(109%);
 }
+
+.hero-web {
+  background-image: url("../public/images/web-design/desktop/bg-pattern-intro-web.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-web {
+    background-position: left;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-web {
+    background-position: right;
+  }
+}
