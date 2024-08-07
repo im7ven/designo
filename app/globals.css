@@ -141,7 +141,6 @@ h2 {
   content: "";
   background-image: url("../public/images/home/desktop/bg-pattern-hero-home.svg");
   background-repeat: no-repeat;
-  /* background-size: cover; */
   background-position-y: center;
   background-position-x: left;
 }
@@ -151,6 +150,8 @@ h2 {
     background-position-x: right;
   }
 }
+
+/* Shared  */
 
 .footer-cta {
   background-image: url("../public/images/shared/desktop/bg-pattern-call-to-action.svg");
@@ -164,7 +165,7 @@ h2 {
   }
 }
 
-.background-design1 {
+.home-design1 {
   background-image: url("../public/images/shared/desktop/bg-pattern-leaf.svg");
   position: absolute;
   background-position: center;
@@ -176,7 +177,7 @@ h2 {
   height: 59.4rem;
 }
 
-.background-design2 {
+.home-design2 {
   background-image: url("../public/images/shared/desktop/bg-pattern-leaf.svg");
   position: absolute;
   width: 100.6rem;

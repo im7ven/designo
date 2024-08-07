@@ -16,13 +16,13 @@ export default function Home() {
     <main>
       <div className=" max-w-[111rem] box-content mx-auto md:px-16">
         <HomeHero />
-        <div className="background-design1" />
+        <div className="home-design1" />
         <section className="mt-[12rem] grid gap-[2.4rem] px-[2.4rem] max-w-[68.9rem] md:px-0 mx-auto lg:max-w-[initial] lg:grid-cols-2 lg:grid-rows-2 lg:mt[16rem]">
           <DesignCard {...webDesignLg} />
           <DesignCard {...appDesign} />
           <DesignCard {...graphicDesign} />
         </section>
-        <div className="background-design2" />
+        <div className="home-design2" />
 
         <section className="flex flex-col gap-[8rem] px-[2.4rem] mt-[12rem] md:px-0 md:gap-[3.2rem] lg:flex-row lg:gap-[3rem] lg:mt-[16rem]">
           <FeatureCard {...passionateCard} />
