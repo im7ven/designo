@@ -25,7 +25,7 @@ export const webDesignLg = {
   desktopImg: webDesignDesktopLg,
   tabletImg: webDesignTablet,
   mobileImg: webDesignMobile,
-  link: "/web-design",
+  link: "/design/web",
   size: "lg:h-[64rem]",
   rowSpan: "row-span-2",
 };
@@ -35,7 +35,7 @@ export const webDesignSm = {
   desktopImg: webDesignDesktopSm,
   tabletImg: webDesignTablet,
   mobileImg: webDesignMobile,
-  link: "/web-design",
+  link: "/design/web",
   size: "lg:h-[30.8rem]",
 };
 
@@ -44,7 +44,7 @@ export const appDesign = {
   desktopImg: appDesignDesktop,
   tabletImg: appDesignTablet,
   mobileImg: appDesignMobile,
-  link: "/app-design",
+  link: "/design/app",
   size: "lg:h-[30.8rem]",
 };
 
@@ -53,6 +53,6 @@ export const graphicDesign = {
   desktopImg: graphicDesignDesktop,
   tabletImg: graphicDesignTablet,
   mobileImg: graphicDesignMobile,
-  link: "/graphic-design",
+  link: "/design/graphic",
   size: "lg:h-[30.8rem]",
 };
