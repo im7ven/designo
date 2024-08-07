@@ -6,7 +6,7 @@ interface Props {
 
 const DesignHero = ({ ...props }: Props) => {
   return (
-    <div className="md:px-[2.4rem]">
+    <div className="md:px-[2.4rem] lg:px-0">
       <section
         className={`${props.backgroundImage} text-center px-[2.4rem] py-[10.5rem] md:py-[6.4rem] bg-[--peach-dark] rounded-2xl`}
       >
