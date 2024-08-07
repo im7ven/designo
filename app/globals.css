@@ -165,13 +165,17 @@ h2 {
   }
 }
 
+.home-design1,
+.home-design2 {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
 .home-design1 {
   background-image: url("../public/images/shared/desktop/bg-pattern-leaf.svg");
-  position: absolute;
   background-position: center;
-  background-repeat: no-repeat;
   top: 43.5rem;
-  z-index: -1;
   left: 0;
   width: 100.6rem;
   height: 59.4rem;
@@ -179,13 +183,18 @@ h2 {
 
 .home-design2 {
   background-image: url("../public/images/shared/desktop/bg-pattern-leaf.svg");
-  position: absolute;
   width: 100.6rem;
   height: 59.4rem;
   transform: rotate(180deg);
   right: 0;
   top: 184rem;
-  z-index: -1;
+}
+
+@media screen and (min-width: 1024px) {
+  .home-design1,
+  .home-design2 {
+    opacity: 1;
+  }
 }
 
 .social-icons:hover {
