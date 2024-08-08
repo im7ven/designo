@@ -210,12 +210,27 @@ h2 {
 
 .hero-web {
   background-image: url("../public/images/web-design/desktop/bg-pattern-intro-web.svg");
+}
+
+.hero-app {
+  background-image: url("../public/images/app-design/desktop/bg-pattern-intro-app.svg");
+}
+
+.hero-graphic {
+  background-image: url("../public/images/web-design/desktop/bg-pattern-intro-web.svg");
+}
+
+.hero-web,
+.hero-app,
+.hero-graphic {
   background-repeat: no-repeat;
   background-position-x: right;
 }
 
 @media screen and (min-width: 768px) {
-  .hero-web {
+  .hero-web,
+  .hero-app,
+  .hero-graphic {
     background-position: left;
   }
 }
