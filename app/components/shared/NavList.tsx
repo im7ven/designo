@@ -47,7 +47,7 @@ const NavList = () => {
         }`}
       >
         <li className="hover:border-b-[--dark-grey] hover:border-b-[1px]">
-          <Link href="/company">Our Company</Link>
+          <Link href="/about">Our Company</Link>
         </li>
         <li className="hover:border-b-[--dark-grey] hover:border-b-[1px]">
           <Link href="/locations">Locations</Link>
