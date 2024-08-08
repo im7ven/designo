@@ -46,13 +46,13 @@ const NavList = () => {
           isExpanded ? "py-[4.8rem] px-[2.4rem] max-h-[37.5rem]  " : ""
         }`}
       >
-        <li>
+        <li className="hover:border-b-[--dark-grey] hover:border-b-[1px]">
           <Link href="/company">Our Company</Link>
         </li>
-        <li>
+        <li className="hover:border-b-[--dark-grey] hover:border-b-[1px]">
           <Link href="/locations">Locations</Link>
         </li>
-        <li>
+        <li className="hover:border-b-[--dark-grey] hover:border-b-[1px]">
           <Link href="/contacts">Contact</Link>
         </li>
       </ul>
