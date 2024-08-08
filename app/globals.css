@@ -197,6 +197,12 @@ h2 {
   }
 }
 
+.design-page-bg {
+  background-image: url("../public//images//shared/desktop/bg-pattern-leaf.svg");
+  background-repeat: no-repeat;
+  background-position-y: 12.6rem;
+}
+
 .social-icons:hover {
   filter: brightness(0) saturate(100%) invert(65%) sepia(76%) saturate(210%)
     hue-rotate(322deg) brightness(98%) contrast(109%);
