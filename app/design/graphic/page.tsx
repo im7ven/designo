@@ -7,7 +7,7 @@ import { graphicDesignProjects } from "@/app/data/graphicDesignCards";
 const GraphicDesignPage = () => {
   return (
     <div className="max-w-[111rem] mx-auto">
-      <DesignHero heading="Graphic Design" backgroundImage="">
+      <DesignHero heading="Graphic Design" backgroundImage="hero-graphic">
         We deliver eye-catching branding materials that are tailored to meet
         your business objectives.
       </DesignHero>
