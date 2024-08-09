@@ -240,3 +240,18 @@ h2 {
     background-position: right;
   }
 }
+
+/* About Us  */
+
+.talent-feature-bg {
+  background-image: url("../public/images/shared/desktop/bg-pattern-three-circles.svg");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .talent-feature-bg {
+    background-position-x: 30rem;
+  }
+}

@@ -6,7 +6,7 @@ import { AboutFeatureProps } from "@/app/data/AboutFeatureSections";
 
 const AboutFeature = ({ ...props }: AboutFeatureProps) => {
   return (
-    <section className="bg-[#FDF3F0] rounded-2xl text-center grid grid-rows-[auto_1fr] md:overflow-hidden md:mt-[12rem] lg:mt-[16rem] lg:text-left lg:grid-cols-[auto_auto]">
+    <section className=" talent-feature-bg bg-[#FDF3F0] rounded-2xl text-center grid grid-rows-[auto_1fr] md:overflow-hidden md:mt-[12rem] lg:mt-[16rem] lg:text-left lg:grid-cols-[auto_auto]">
       <div className={` lg:w-[47.6rem] ${props.order}`}>
         <picture>
           <source
