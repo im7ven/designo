@@ -14,6 +14,12 @@ import { usePathname } from "next/navigation";
 const Footer = () => {
   const currentPath = usePathname();
 
+  const footerPaddingDesktop =
+    currentPath === "/contact" ? "md:pt-[7.2rem]" : "md:pt-[16.6rem]";
+
+  const footerPaddingMobile =
+    currentPath === "/contact" ? "pt-[25.3rem]" : "pt-[7rem]";
+
   return (
     <>
       {currentPath !== "/contact" && (
@@ -21,7 +27,9 @@ const Footer = () => {
           <FooterCTA />
         </div>
       )}
-      <footer className="bg-[--dark-black] pt-[25.3rem] pb-[6.4rem] px-[2.4rem] md:pt-[16.6rem] md:px-[3.9rem]">
+      <footer
+        className={`bg-[--dark-black] pt-[25.3rem]  pb-[6.4rem] px-[2.4rem] ${footerPaddingDesktop} ${footerPaddingMobile} md:px-[3.9rem]`}
+      >
         <div className="max-w-[111rem] lg:mx-auto">
           <div className="md:flex md:justify-between">
             <Link href="/">
