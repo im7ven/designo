@@ -53,7 +53,7 @@ const NavList = () => {
           <Link href="/locations">Locations</Link>
         </li>
         <li className="hover:border-b-[--dark-grey] hover:border-b-[1px]">
-          <Link href="/contacts">Contact</Link>
+          <Link href="/contact">Contact</Link>
         </li>
       </ul>
       {isExpanded && <div className="overlay"></div>}
