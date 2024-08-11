@@ -270,6 +270,23 @@ h2 {
   }
 }
 
+.about-design1,
+.about-design2 {
+  position: absolute;
+  z-index: -1;
+  background-image: url("../public/images/shared/desktop/bg-pattern-leaf.svg");
+}
+
+.about-design1 {
+  top: 32rem;
+  left: 0;
+}
+
+.about-design2 {
+  bottom: 113rem;
+  right: -40rem;
+}
+
 /* Location */
 
 .location-card-bg {
