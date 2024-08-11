@@ -6,7 +6,7 @@ const FooterCTA = () => {
       <section className="footer-cta text-center bg-[--peach-dark] rounded-2xl py-[6.4rem] px-[2.4rem] md:py-[5.7rem] max-w-[111rem] lg:mx-auto lg:py-[7.2rem] lg:px-[9.5rem]  lg:flex lg:items-center lg:text-left lg:justify-between">
         <div className="max-w-[44.9rem] mx-auto lg:mx-[initial]">
           <h2 className="tracking-normal leading-[3.6rem]">
-            Let's talk about your project
+            Let&apos;s talk about your project
           </h2>
           <p className="body-text text-white pt-[1.6rem] pb-[3.2rem] lg:pb-0">
             Ready to take it to the next level? Contact us today and find out
