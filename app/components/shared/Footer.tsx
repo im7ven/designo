@@ -43,7 +43,7 @@ const Footer = () => {
             </Link>
             <hr className="border-[rgba(151,151,151,.6)] mt-[4rem] mb-[3.1rem] md:hidden" />
             <ul className="flex flex-col items-center gap-[3.2rem] md:flex-row nav-item text-white">
-              <Link href="/our-company">
+              <Link href="/about">
                 <li>Our company</li>
               </Link>
               <Link href="/locations">
