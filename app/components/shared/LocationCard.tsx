@@ -20,7 +20,7 @@ const LocationCard = ({ location, locationImg, backgroundImg }: Props) => {
       <h3 className="tracking-[.5rem] text-[2rem] uppercase font-medium text-[--dark-grey] mt-[4.8rem] mb-[3.2rem]">
         {location}
       </h3>
-      <Link href="/location</article>" className="btn-secondary">
+      <Link href="/locations" className="btn-secondary">
         See location
       </Link>
     </article>
