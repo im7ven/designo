@@ -14,6 +14,7 @@ const ContactPage = () => {
         </section>
         <LocationGrid />
       </main>
+      <div className="contact-bg" />
       <Footer />
     </>
   );

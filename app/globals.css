@@ -275,6 +275,7 @@ h2 {
   position: absolute;
   z-index: -1;
   background-image: url("../public/images/shared/desktop/bg-pattern-leaf.svg");
+  display: none;
 }
 
 .about-design1 {
@@ -350,5 +351,25 @@ textarea:focus::placeholder {
     background-position-y: -8rem;
     background-position-x: -4rem;
     background-size: initial;
+  }
+}
+
+.contact-bg {
+  background-image: url("../public/images/shared/desktop/bg-pattern-leaf.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  bottom: -82rem;
+  width: 100.6rem;
+  height: 59.4rem;
+  z-index: -1;
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-bg,
+  .about-design1,
+  .about-design2 {
+    display: block;
   }
 }
