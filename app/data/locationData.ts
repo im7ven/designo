@@ -1,7 +1,7 @@
 export interface LocationProps {
   lat: number;
   lng: number;
-  zoom?: number;
+  zoom: number;
   heading: string;
   phone: string;
   streetAddress: string;
@@ -25,9 +25,9 @@ export const locations: LocationProps[] = [
     order: "lg:order-2",
   },
   {
-    lat: 43.7039,
-    lng: -79.242,
-    zoom: 15,
+    lat: -33.11,
+    lng: 151.65,
+    zoom: 10,
     heading: "Australia",
     phone: "P : (02) 6720 9092",
     email: "M : contact@designo.au",
@@ -36,9 +36,9 @@ export const locations: LocationProps[] = [
     office: "Designo AU Office",
   },
   {
-    lat: 43.7039,
-    lng: -79.242,
-    zoom: 15,
+    lat: 53.7326,
+    lng: -1.3145,
+    zoom: 14,
     heading: "United Kingdom",
     phone: "P : 078 3115 1400",
     email: "M : contact@designo.uk",
