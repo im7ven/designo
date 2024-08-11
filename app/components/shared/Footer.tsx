@@ -18,7 +18,7 @@ const Footer = () => {
     currentPath === "/contact" ? "md:pt-[7.2rem]" : "md:pt-[16.6rem]";
 
   const footerPaddingMobile =
-    currentPath === "/contact" ? "pt-[25.3rem]" : "pt-[7rem]";
+    currentPath !== "/contact" ? "pt-[25.3rem]" : "pt-[7rem]";
 
   return (
     <>
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
       )}
       <footer
-        className={`bg-[--dark-black] pt-[25.3rem]  pb-[6.4rem] px-[2.4rem] ${footerPaddingDesktop} ${footerPaddingMobile} md:px-[3.9rem]`}
+        className={`bg-[--dark-black] pb-[6.4rem] px-[2.4rem] ${footerPaddingDesktop} ${footerPaddingMobile} md:px-[3.9rem]`}
       >
         <div className="max-w-[111rem] lg:mx-auto">
           <div className="md:flex md:justify-between">
