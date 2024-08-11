@@ -22,6 +22,10 @@ const NavList = () => {
   const handleExpand = () => {
     setIsExpanded(!isExpanded);
   };
+
+  const handleClose = () => {
+    setIsExpanded(false);
+  };
   return (
     <>
       <Image
@@ -47,13 +51,19 @@ const NavList = () => {
         }`}
       >
         <li className="hover:border-b-[--dark-grey] hover:border-b-[1px]">
-          <Link href="/about">Our Company</Link>
+          <Link onClick={handleClose} href="/about">
+            Our Company
+          </Link>
         </li>
         <li className="hover:border-b-[--dark-grey] hover:border-b-[1px]">
-          <Link href="/locations">Locations</Link>
+          <Link onClick={handleClose} href="/locations">
+            Locations
+          </Link>
         </li>
         <li className="hover:border-b-[--dark-grey] hover:border-b-[1px]">
-          <Link href="/contact">Contact</Link>
+          <Link onClick={handleClose} href="/contact">
+            Contact
+          </Link>
         </li>
       </ul>
       {isExpanded && <div className="overlay"></div>}
