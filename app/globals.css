@@ -93,6 +93,10 @@ h2 {
   background-color: #fff;
 }
 
+.btn-form {
+  padding: 1.7rem 4.8rem;
+}
+
 .btn-secondary {
   color: #fff;
   background-color: var(--peach-dark);
@@ -274,4 +278,60 @@ h2 {
   background-repeat: no-repeat;
   background-position-y: -24.5rem;
   background-position-x: center;
+}
+
+/* Contact  */
+input,
+textarea {
+  font-size: 1.5rem;
+  display: block;
+  color: #fff;
+  font-weight: 700;
+  outline: 0;
+  background: none;
+  border-bottom: 1px solid white;
+  padding: 2.5rem 1.4rem 1.8rem;
+  caret-color: #3701e8;
+}
+
+input:focus,
+textarea:focus {
+  border-bottom: 2px solid white;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: 500;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: #fff;
+}
+
+.form-bg {
+  background-image: url("../public/images/contact/mobile/bg-pattern-hero-contact-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+@media screen and (min-width: 768px) {
+  .form-bg {
+    background-image: url("../public/images/contact/desktop/bg-pattern-hero-desktop.svg");
+    background-position-y: -12rem;
+    background-position-x: -12rem;
+    background-size: initial;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .form-bg {
+    background-image: url("../public/images/contact/desktop/bg-pattern-hero-desktop.svg");
+    background-position-y: -8rem;
+    background-position-x: -4rem;
+    background-size: initial;
+  }
 }
