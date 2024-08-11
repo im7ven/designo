@@ -1,5 +1,6 @@
 import Image from "next/image";
 import phone from "@/public/images/home/desktop/image-hero-phone.png";
+import Link from "next/link";
 
 const HomeHero = () => {
   return (
@@ -11,7 +12,9 @@ const HomeHero = () => {
           fully responsive websites, app design, and engaging brand experiences.
           Find out more about our services.
         </p>
-        <button className="btn-primary">Learn More</button>
+        <Link href="about" className="btn-primary">
+          Learn More
+        </Link>
       </div>
     </section>
   );
