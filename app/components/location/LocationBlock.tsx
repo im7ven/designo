@@ -1,10 +1,9 @@
 "use client";
 
-import { Children, memo, ReactNode } from "react";
 import { MapComponent } from "../MapComponent";
 import { LocationProps } from "@/app/data/locationData";
 
-const LocationBlock = memo(({ ...props }: LocationProps) => {
+const LocationBlock = ({ ...props }: LocationProps) => {
   return (
     <section className="grid items-center md:gap-[3.1rem] text-center md:text-left lg:grid-cols-[auto_auto]">
       <div className={`lg:w-[35rem] ${props.order}`}>
@@ -27,6 +26,6 @@ const LocationBlock = memo(({ ...props }: LocationProps) => {
       </div>
     </section>
   );
-});
+};
 
 export default LocationBlock;
