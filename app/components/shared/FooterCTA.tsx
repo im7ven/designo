@@ -13,7 +13,7 @@ const FooterCTA = () => {
             how our expertise can help your business grow.
           </p>
         </div>
-        <Link href="/" className="btn-primary">
+        <Link href="/contact" className="btn-primary">
           Get in touch
         </Link>
       </section>
